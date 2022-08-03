@@ -1,15 +1,15 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: azure;
+  width: 50%;
+  height: 100%;
+  border: solid 1px black;
+  padding-bottom: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .count {
+    animation: rotate infinite 20s linear;
   }
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: aquamarine;
+  background-color: bisque;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #282c34;
+  width: 100px;
+
+}
+
+body{
+  margin-left: 30%;
+  background-color: cornflowerblue;
 }
